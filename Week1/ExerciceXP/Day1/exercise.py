@@ -11,7 +11,7 @@ print(resultat)
 >>> "Hello" == "hello"#False
 #Exercise4
 computer_brand="Lamborgini"
-print("I have a " + computer_brand + "computer .")
+print("I have a " + computer_brand + " computer .")
 #Exercise5
 name="SORO"
 age= 22
