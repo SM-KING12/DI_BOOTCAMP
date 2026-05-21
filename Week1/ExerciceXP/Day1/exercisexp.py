@@ -8,7 +8,7 @@ print(resultat)
 >>> 3 == 3 #True
 >>> 3 == "3" #False
 >>> "3" > 3 #False
->>> "Hello" == "hello"#False
+>>> "Hello" == "hello" #False
 #Exercise4
 computer_brand="Lamborgini"
 print("I have a " + computer_brand + " computer .")

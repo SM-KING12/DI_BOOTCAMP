@@ -1,7 +1,6 @@
 
 # Exercice 1 : Quelle est la saison ?
 
-
 mois = int(input("Entrez un mois (1 à 12) : "))
 
 if mois >= 3 and mois <= 5:
