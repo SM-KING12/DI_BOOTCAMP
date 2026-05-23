@@ -22,7 +22,6 @@ class Siamese(Cat): pass
 sara_pets = Pets([Bengal("Simba", 3), Chartreux("Felix", 5), Siamese("Luna", 2)])
 sara_pets.walk()
 
-
 #  Exercise 2 
 class Dog:
     def __init__(self, name, age, weight):
@@ -45,31 +44,6 @@ dog2 = Dog("Bella", 5, 20)
 print(dog1.bark())
 print(dog1.run_speed())
 print(dog1.fight(dog2))
-
-
-#  Exercise 3 
-class PetDog(Dog):
-    def __init__(self, name, age, weight):
-        super().__init__(name, age, weight)
-        self.trained = False
-
-    def train(self):
-        print(self.bark())
-        self.trained = True
-
-    def play(self, *args):
-        print(f"{self.name}, {', '.join(args)} jouent ensemble")
-
-    def do_a_trick(self):
-        if self.trained:
-            tricks = ["does a barrel roll", "stands on his back legs", "shakes your hand", "plays dead"]
-            print(f"{self.name} {random.choice(tricks)}")
-
-my_dog = PetDog("Fido", 2, 10)
-my_dog.train()
-my_dog.play("Buddy", "Max")
-my_dog.do_a_trick()
-
 
 #  Exercise 4 
 class Person:
